@@ -4,11 +4,11 @@
 
 @section('content')
     <div class="movie-info border-b border-gray-800">
-        <div class="container mx-auto px-4 py-16 flex">
-            <img src="https://whatsrel.com.br/wp-content/uploads/2018/02/the-post1.jpg" alt="blade runner" class="w-96">
-            <div class="ml-24">
+        <div class="container mx-auto px-4 py-16 flex flex-col md:flex-row">
+            <img src="https://whatsrel.com.br/wp-content/uploads/2018/02/the-post1.jpg" alt="blade runner" class="w-64 md:w-96">
+            <div class="md:ml-24">
                 <h2 class="text-4xl font-semibold text-lime-500">Blade Runner (2049)</h2>
-                <div class="flex items-center text-gray-400">
+                <div class="flex flex-wrap items-center text-gray-400">
                     <span><ion-icon class="mt-1" name="star"></ion-icon></span>
                     <span class="ml-1">85%</span>
                     <span class="mx-2">|</span>
@@ -46,6 +46,149 @@
                 </div>
             </div>
         </div>
-
     </div> <!-- end movie info -->
+
+    <div class="movie-cast border-b border-gray-800">
+        <div class="container mx-auto px-4 py-16">
+            <h2 class="text-4xl font-semibold">Cast</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
+                <div class="mt-8">
+                    <a href="#">
+                        <img src="https://whatsrel.com.br/wp-content/uploads/2018/02/the-post1.jpg" alt="parasite" class="hover:opacity-75 transition ease-in-out duration-150">
+                    </a>
+                    <div class="mt-2">
+                        <a href="#" class="txt-lg mt-2 hover:text-gray:300">Blade Runner</a>
+                        <div class="flex items-center text-gray-400">
+                            <span><ion-icon class="mt-1" name="star"></ion-icon></span>
+                            <span class="ml-1">85%</span>
+                            <span class="mx-2">|</span>
+                            <span>Feb 20, 2020</span>
+                        </div>
+                        <div class="text-gray-400 text-sm">
+                            Action, Thriller, Comedy
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-8">
+                    <a href="#">
+                        <img src="https://whatsrel.com.br/wp-content/uploads/2018/02/the-post1.jpg" alt="parasite" class="hover:opacity-75 transition ease-in-out duration-150">
+                    </a>
+                    <div class="mt-2">
+                        <a href="#" class="txt-lg mt-2 hover:text-gray:300">Blade Runner</a>
+                        <div class="flex items-center text-gray-400">
+                            <span><ion-icon class="mt-1" name="star"></ion-icon></span>
+                            <span class="ml-1">85%</span>
+                            <span class="mx-2">|</span>
+                            <span>Feb 20, 2020</span>
+                        </div>
+                        <div class="text-gray-400 text-sm">
+                            Action, Thriller, Comedy
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-8">
+                    <a href="#">
+                        <img src="https://whatsrel.com.br/wp-content/uploads/2018/02/the-post1.jpg" alt="parasite" class="hover:opacity-75 transition ease-in-out duration-150">
+                    </a>
+                    <div class="mt-2">
+                        <a href="#" class="txt-lg mt-2 hover:text-gray:300">Blade Runner</a>
+                        <div class="flex items-center text-gray-400">
+                            <span><ion-icon class="mt-1" name="star"></ion-icon></span>
+                            <span class="ml-1">85%</span>
+                            <span class="mx-2">|</span>
+                            <span>Feb 20, 2020</span>
+                        </div>
+                        <div class="text-gray-400 text-sm">
+                            Action, Thriller, Comedy
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-8">
+                    <a href="#">
+                        <img src="https://whatsrel.com.br/wp-content/uploads/2018/02/the-post1.jpg" alt="parasite" class="hover:opacity-75 transition ease-in-out duration-150">
+                    </a>
+                    <div class="mt-2">
+                        <a href="#" class="txt-lg mt-2 hover:text-gray:300">Blade Runner</a>
+                        <div class="flex items-center text-gray-400">
+                            <span><ion-icon class="mt-1" name="star"></ion-icon></span>
+                            <span class="ml-1">85%</span>
+                            <span class="mx-2">|</span>
+                            <span>Feb 20, 2020</span>
+                        </div>
+                        <div class="text-gray-400 text-sm">
+                            Action, Thriller, Comedy
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-8">
+                    <a href="#">
+                        <img src="https://whatsrel.com.br/wp-content/uploads/2018/02/the-post1.jpg" alt="parasite" class="hover:opacity-75 transition ease-in-out duration-150">
+                    </a>
+                    <div class="mt-2">
+                        <a href="#" class="txt-lg mt-2 hover:text-gray:300">Blade Runner</a>
+                        <div class="flex items-center text-gray-400">
+                            <span><ion-icon class="mt-1" name="star"></ion-icon></span>
+                            <span class="ml-1">85%</span>
+                            <span class="mx-2">|</span>
+                            <span>Feb 20, 2020</span>
+                        </div>
+                        <div class="text-gray-400 text-sm">
+                            Action, Thriller, Comedy
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-8">
+                    <a href="#">
+                        <img src="https://whatsrel.com.br/wp-content/uploads/2018/02/the-post1.jpg" alt="parasite" class="hover:opacity-75 transition ease-in-out duration-150">
+                    </a>
+                    <div class="mt-2">
+                        <a href="#" class="txt-lg mt-2 hover:text-gray:300">Blade Runner</a>
+                        <div class="flex items-center text-gray-400">
+                            <span><ion-icon class="mt-1" name="star"></ion-icon></span>
+                            <span class="ml-1">85%</span>
+                            <span class="mx-2">|</span>
+                            <span>Feb 20, 2020</span>
+                        </div>
+                        <div class="text-gray-400 text-sm">
+                            Action, Thriller, Comedy
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-8">
+                    <a href="#">
+                        <img src="https://whatsrel.com.br/wp-content/uploads/2018/02/the-post1.jpg" alt="parasite" class="hover:opacity-75 transition ease-in-out duration-150">
+                    </a>
+                    <div class="mt-2">
+                        <a href="#" class="txt-lg mt-2 hover:text-gray:300">Blade Runner</a>
+                        <div class="flex items-center text-gray-400">
+                            <span><ion-icon class="mt-1" name="star"></ion-icon></span>
+                            <span class="ml-1">85%</span>
+                            <span class="mx-2">|</span>
+                            <span>Feb 20, 2020</span>
+                        </div>
+                        <div class="text-gray-400 text-sm">
+                            Action, Thriller, Comedy
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-8">
+                    <a href="#">
+                        <img src="https://whatsrel.com.br/wp-content/uploads/2018/02/the-post1.jpg" alt="parasite" class="hover:opacity-75 transition ease-in-out duration-150">
+                    </a>
+                    <div class="mt-2">
+                        <a href="#" class="txt-lg mt-2 hover:text-gray:300">Blade Runner</a>
+                        <div class="flex items-center text-gray-400">
+                            <span><ion-icon class="mt-1" name="star"></ion-icon></span>
+                            <span class="ml-1">85%</span>
+                            <span class="mx-2">|</span>
+                            <span>Feb 20, 2020</span>
+                        </div>
+                        <div class="text-gray-400 text-sm">
+                            Action, Thriller, Comedy
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 @endsection

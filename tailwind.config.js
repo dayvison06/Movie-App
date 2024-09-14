@@ -5,7 +5,9 @@ export default {
       './resources/**/*.js',
   ],
   theme: {
-    extend: {},
+    extend: {
+        '96': '24rem',
+    },
   },
   plugins: [],
 }
